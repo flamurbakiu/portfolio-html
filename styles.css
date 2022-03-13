@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background-color: #be3144;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 0px 15px #000;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header h1 {
+  color: white;
+  margin-left: 20px;
+}
+
+header nav ul li {
+  font-size: 20px;
+  font-weight: 700;
+  list-style: none;
+  padding: 28.2px 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li:hover {
+  background-color: #45567d;
+  cursor: pointer;
+}
+
+.introduction {
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  height: 86.7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.introduction h2 {
+  color: white;
+  font-size: 50px;
+}
+
+.introduction span {
+  color: #be3144;
+  font-size: 30px;
+}
+
+.projects {
+  background-color: #45567d;
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.projects .project-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-bottom: 80px;
+}
+
+.projects .project-card {
+  width: 400px;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px #000;
+  border-radius: 20px;
+}
+
+.projects .project-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.projects .project-card h4 {
+  font-size: 25px;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  background-color: #303841;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.contact {
+  background-color: #303841;
+  text-align: center;
+  color: white;
+}
+
+.contact h2 {
+  font-size: 60px;
+  font-weight: 700;
+  padding: 100px 0 10px;
+}
+
+.contact p {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.contact .socials {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact .socials a {
+  font-size: 35px;
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  height: 80px;
+  background-color: #303841;
+  border-top: 3px solid #be3144;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer p {
+  font-size: 13px;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
